@@ -4,9 +4,9 @@
             <img src="../assets/CircleRight.svg" id="second-circle" alt="Banner right svg">
             <div class="header-padding">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-lg-6 d-block d-lg-flex align-items-center">
                         <div class="banner-left">
-                            <h1 class="fw-bold mt-4">We help you create <br> your <span class="highlight">Website</span></h1>
+                            <h1 class="fw-bold">We help you create <br> your <span class="highlight">Website</span></h1>
                             <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ut turpis adipiscing tempus, magna elit nunc iaculis sit. Libero velit quis leo non. At donec egestas cras in libero pellentesque. Donec amet phasellus</p>
                             <div class="pt-4">
                                 <a href="#" class="cta-secondary">Get Started</a>
@@ -14,7 +14,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="banner-right">
                             <img src="../assets/Analyse.png"  class="img-fluid" alt="Banner rigth images">
                         </div>
@@ -38,7 +38,6 @@ export default {
     .banner-left {
         position: absolute;
         max-width: 500px;
-        z-index: 10;
     }
 
     .banner-left::before {
@@ -108,5 +107,11 @@ export default {
         opacity: 0.7;
         z-index: -8;
     }
+
+    @media (max-width: 767.98px) { 
+        #first-circle, #second-circle {
+            display: none;
+        }
+     }
 
 </style>
