@@ -14,9 +14,9 @@ tempor invidunt ut labore et.</p>
         <img src="../assets/ServiceCircle.svg" id="service-circle" alt="">
 
         <div class="row justify-content-center align-items-center g-4 g-lg-5" id="service-container">
-            <div class="col-md-6 col-lg-4">
-                <div class="service-box bg-white shadow p-4 py-5 rounded">
-                    <div class="service-icon mb-3">
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="service-box bg-white shadow px-5 px-lg-4 py-5 rounded">
+                    <div class="service-icon mb-4">
                         <div class="circle"></div>
                         <div><span><i class="fa fa-window-maximize"></i></span></div>
                     </div>
@@ -26,9 +26,9 @@ tempor invidunt ut labore et.</p>
     nonumy eirmod tempor invidunt ut </p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="service-box bg-white shadow p-4 py-5 rounded">
-                    <div class="service-icon mb-3">
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="service-box bg-white shadow px-5 px-lg-4 py-5 rounded">
+                    <div class="service-icon mb-4">
                         <div class="circle"></div>
                         <div><span><i class="fa fa-plug"></i></span></div>
                     </div>
@@ -38,9 +38,9 @@ tempor invidunt ut labore et.</p>
     nonumy eirmod tempor invidunt ut </p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="service-box bg-white shadow p-4 py-5 rounded">
-                    <div class="service-icon mb-3">
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="service-box bg-white shadow px-5 px-lg-4 py-5 rounded">
+                    <div class="service-icon mb-4">
                         <div class="circle"></div>
                         <div><span><i class="fa fa-desktop"></i></span></div>
                     </div>
@@ -50,9 +50,9 @@ tempor invidunt ut labore et.</p>
     nonumy eirmod tempor invidunt ut </p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="service-box bg-white shadow p-4 py-5 rounded">
-                    <div class="service-icon mb-3">
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="service-box bg-white shadow px-5 px-lg-4 py-5 rounded">
+                    <div class="service-icon mb-4">
                         <div class="circle"></div>
                         <div><span><i class="fa fa-cog"></i></span></div>
                     </div>
@@ -62,9 +62,9 @@ tempor invidunt ut labore et.</p>
     nonumy eirmod tempor invidunt ut </p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="service-box bg-white shadow p-4 py-5 rounded">
-                    <div class="service-icon mb-3">
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="service-box bg-white shadow px-5 px-lg-4 py-5 rounded">
+                    <div class="service-icon mb-4">
                         <div class="circle"></div>
                         <div><span><i class="fa fa-rocket"></i></span></div>
                     </div>
@@ -74,9 +74,9 @@ tempor invidunt ut labore et.</p>
     nonumy eirmod tempor invidunt ut </p>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="service-box bg-white shadow p-4 py-5 rounded">
-                    <div class="service-icon mb-3">
+            <div class="col-11 col-md-6 col-lg-4">
+                <div class="service-box bg-white shadow px-5 px-lg-4 py-5 rounded">
+                    <div class="service-icon mb-4">
                         <div class="circle"></div>
                         <div><span><i class="fas fa-layer-group"></i></span></div>
                     </div>
@@ -110,7 +110,6 @@ export default {
     }
 
     .service-box {
-        max-width: 340px;
         border-top: 5px solid #60E1CB;
         z-index: 10;
     }
@@ -149,5 +148,12 @@ export default {
     #service-container {
         position: relative;
         z-index: 20;
+    }
+
+
+    @media (max-width: 991.98px){
+        #service-circle {
+            display: none;
+        }
     }
 </style>

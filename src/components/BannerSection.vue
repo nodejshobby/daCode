@@ -1,12 +1,12 @@
 <template>
-        <div class="container-fluid banner my-5 my-lg-4 px-lg-0">
+        <div class="container-fluid banner my-5 my-lg-4 px-lg-0" id="banner">
             <img src="../assets/CircleLeft.svg" id="first-circle" alt="Banner left svg">
             <img src="../assets/CircleRight.svg" id="second-circle" alt="Banner right svg">
             <div class="header-padding">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-6 d-block d-lg-flex align-items-center px-md-5 px-lg-0">
+                    <div class="col-11 col-lg-6 d-block d-lg-flex align-items-center px-md-5 px-lg-0">
                         <div class="banner-left">
-                            <h1 class="fw-bold mt-3">We help you create <br class="d-md-none d-lg-block"> your <span class="highlight">Website</span></h1>
+                            <h1 class="fw-bold mt-3">We help you create <br class="d-none d-lg-block"> your <span class="highlight">Website</span></h1>
                             <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ut turpis adipiscing tempus, magna elit nunc iaculis sit. Libero velit quis leo non. At donec egestas cras in libero pellentesque. Donec amet phasellus</p>
                             <div class="pt-4">
                                 <a href="#" class="cta-secondary">Get Started</a>

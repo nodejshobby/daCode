@@ -1,8 +1,9 @@
 <template>
-  <div>
+  <div >
     <NavbarSection />
     <BannerSection />
     <ServiceSection />
+    <PortfolioSection />
   </div> 
 </template>
 
@@ -10,14 +11,24 @@
 import NavbarSection from './components/NavbarSection'
 import BannerSection from './components/BannerSection'
 import ServiceSection from './components/ServiceSection'
+import PortfolioSection from './components/PortfolioSection'
+import $ from 'jquery'
+
+
 
 
 export default {
   name: 'App',
+  created(){
+    $('document').ready(function(){
+      console.log("Hello World")
+    })
+  },
   components: {
     NavbarSection,
     BannerSection,
-    ServiceSection
+    ServiceSection,
+    PortfolioSection
   }
 }
 </script>
@@ -28,6 +39,8 @@ export default {
   body{
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+    position: relative;
+    margin-top: 5.4rem !important;
   }
 
   h1 {
