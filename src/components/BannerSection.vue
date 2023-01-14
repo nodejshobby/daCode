@@ -1,12 +1,12 @@
 <template>
-        <div class="container-fluid banner my-4 px-lg-0">
+        <div class="container-fluid banner my-5 my-lg-4 px-lg-0">
             <img src="../assets/CircleLeft.svg" id="first-circle" alt="Banner left svg">
             <img src="../assets/CircleRight.svg" id="second-circle" alt="Banner right svg">
             <div class="header-padding">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-6 d-block d-lg-flex align-items-center">
+                    <div class="col-lg-6 d-block d-lg-flex align-items-center px-md-5 px-lg-0">
                         <div class="banner-left">
-                            <h1 class="fw-bold">We help you create <br> your <span class="highlight">Website</span></h1>
+                            <h1 class="fw-bold mt-3">We help you create <br class="d-md-none d-lg-block"> your <span class="highlight">Website</span></h1>
                             <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ut turpis adipiscing tempus, magna elit nunc iaculis sit. Libero velit quis leo non. At donec egestas cras in libero pellentesque. Donec amet phasellus</p>
                             <div class="pt-4">
                                 <a href="#" class="cta-secondary">Get Started</a>
@@ -32,12 +32,11 @@ export default {
 
 <style>
     .banner {
-        position: absolute;
+        position: relative;
     }
 
     .banner-left {
-        position: absolute;
-        max-width: 500px;
+        position: relative;
     }
 
     .banner-left::before {
@@ -45,6 +44,7 @@ export default {
         position: absolute;
         left: 0;
         top: 0; 
+        display: block;
         height: 5px;
         width: 4rem;
         background: #7BC0E3;
@@ -92,8 +92,8 @@ export default {
         position: absolute;
         width: 400px;
         height: 400px;
-        left: -65.86px;
-        top: 230.4px;
+        left: -8%;
+        top: 52%;
         opacity: 0.3;
         z-index: -11;
     }
@@ -102,15 +102,27 @@ export default {
         position: absolute;
         width: 293.8px;
         height: 163.8px;
-        left:  945px;
-        top:  87px;;
+        left:  70%;
+        top:  20%;
         opacity: 0.7;
-        z-index: -8;
+        z-index: -99;
     }
 
-    @media (max-width: 767.98px) { 
-        #first-circle, #second-circle {
+    @media (max-width: 991.98px) { 
+       .banner-right {
             display: none;
+        }
+
+        #second-circle {
+            display: none;
+        }
+
+        .banner-left::before {
+            display: none;
+        }
+
+        .banner-left {
+            text-align: center;
         }
      }
 

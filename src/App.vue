@@ -2,18 +2,22 @@
   <div>
     <NavbarSection />
     <BannerSection />
+    <ServiceSection />
   </div> 
 </template>
 
 <script>
 import NavbarSection from './components/NavbarSection'
 import BannerSection from './components/BannerSection'
+import ServiceSection from './components/ServiceSection'
+
 
 export default {
   name: 'App',
   components: {
     NavbarSection,
-    BannerSection
+    BannerSection,
+    ServiceSection
   }
 }
 </script>
@@ -33,8 +37,8 @@ export default {
 
   @media (min-width: 992px) {
     .header-padding {
-      padding-left: 10rem !important;
-      padding-right: 10rem !important;
+      padding-left: 7rem !important;
+      padding-right: 7rem !important;
     }
   }
 </style>
