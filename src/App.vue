@@ -40,7 +40,7 @@ export default {
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     position: relative;
-    margin-top: 5.4rem !important;
+    margin-top: 7rem !important;
   }
 
   h1 {
@@ -50,8 +50,8 @@ export default {
 
   @media (min-width: 992px) {
     .header-padding {
-      padding-left: 7rem !important;
-      padding-right: 7rem !important;
+      padding-left: 6rem !important;
+      padding-right: 6rem !important;
     }
   }
 </style>
