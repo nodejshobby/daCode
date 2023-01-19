@@ -46,8 +46,52 @@
                             </div>
                         </div>
                         </div>
-                      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla velit deleniti officiis, temporibus quas suscipit aut perspiciatis non hic natus autem nobis dolorem blanditiis inventore optio at dolorum ab sapiente.</div>
-                      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, magnam perspiciatis nisi quo enim possimus, eaque consequatur et non aut aliquam. Inventore deserunt iusto cumque repellat beatae autem nobis eveniet.</div>
+                      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> <div class="row justify-content-center align-items-center">
+                            <div class="owl-carousel">
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+                            </div>
+                        </div></div>
+                      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"> <div class="row justify-content-center align-items-center">
+                            <div class="owl-carousel">
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
+                            </div>
+                        </div></div>
                     </div>
                 </div>
             </div>
