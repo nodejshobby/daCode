@@ -12,18 +12,9 @@ import NavbarSection from './components/NavbarSection'
 import BannerSection from './components/BannerSection'
 import ServiceSection from './components/ServiceSection'
 import PortfolioSection from './components/PortfolioSection'
-import $ from 'jquery'
-
-
-
 
 export default {
   name: 'App',
-  created(){
-    $('document').ready(function(){
-      console.log("Hello World")
-    })
-  },
   components: {
     NavbarSection,
     BannerSection,
@@ -41,6 +32,7 @@ export default {
     line-height: 1.5;
     position: relative;
     margin-top: 7rem !important;
+    overflow-x: hidden;
   }
 
   h1 {

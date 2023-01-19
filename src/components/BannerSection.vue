@@ -93,7 +93,7 @@ export default {
         height: 400px;
         left: -8%;
         top: 52%;
-        opacity: 0.3;
+        opacity: 0.2;
         z-index: -11;
     }
 
@@ -118,10 +118,6 @@ export default {
 
         .banner-left::before {
             display: none;
-        }
-
-        .banner-left {
-            text-align: center;
         }
      }
 

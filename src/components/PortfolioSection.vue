@@ -1,5 +1,5 @@
 <template>
-    <section class="section-padding" id="portfolio">
+    <section class="contaner-fluid section-padding" id="portfolio">
         <div class="row justify-content-center align-items-center">
             <div class="col-12 mx-auto mb-2 text-center">
                 <h6>Portfolio</h6>
@@ -22,23 +22,29 @@
                 <div class="col-md-12 mx-auto">
                     <div class="tab-content mt-5" id="pills-tabContent">
                       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                        <div class="row justify-content-center align-items-center g-5">
-                                <div class="col-11 col-md-6 col-lg-4">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="owl-carousel">
+                                <div class="col">
                                         <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
                                         <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
                                 </div>
 
-                                <div class="col-11 col-md-6 col-lg-4">
+                                <div class="col">
                                         <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
                                         <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
                                 </div>
 
-                                <div class="col-11 col-md-6 col-lg-4">
+                                <div class="col">
                                         <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
                                         <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
                                 </div>
-                               
+
+                                <div class="col">
+                                        <img class="img-fluid rounded" src="../assets/Portfolio.png" alt="Portfolio Image">
+                                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugiat incidunt accusantium animi beatae consectetur</p>
+                                </div>
                             </div>
+                        </div>
                         </div>
                       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla velit deleniti officiis, temporibus quas suscipit aut perspiciatis non hic natus autem nobis dolorem blanditiis inventore optio at dolorum ab sapiente.</div>
                       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, magnam perspiciatis nisi quo enim possimus, eaque consequatur et non aut aliquam. Inventore deserunt iusto cumque repellat beatae autem nobis eveniet.</div>
@@ -46,12 +52,18 @@
                 </div>
             </div>
         </div>
+
+        <div class="bg-under"></div>
+        <img src="../assets/PortfolioCircle.svg" alt="Portfolio circle" id="portfolio-circle">
+        <a href="#" id="portfolio-button">See All</a>
+
     </section>
 </template>
 
 <script>
-export default {
 
+export default {
+    
 }
 </script>
 
@@ -59,6 +71,7 @@ export default {
     #portfolio h6 {
         color: #7BC0E3 !important;
         font-size: 1rem;
+        width: 100%;
     }
 
     #portfolio .nav-item button {
@@ -71,4 +84,42 @@ export default {
         border-radius: 1000px;
     }
 
+    #portfolio {
+        position: relative;
+    }
+
+    .bg-under {
+        background-color: #60E1CB !important;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        top: 60%;
+        right: 0;
+    }
+
+    #portfolio-circle {
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        top: 30%;
+        right: 77%;
+    }
+
+    #portfolio-button {
+        position: absolute;
+        width: 10rem;
+        padding: 1rem 1.2rem;
+        display: inline-block;
+        text-align: center;
+        left: 50%;
+        right: 50%;
+        bottom: -3%;
+        text-decoration: none;
+        color: #fff;
+        background: #292525;
+        box-shadow: 0px 46px 52px rgba(96, 225, 203, 0.56);
+        border-radius: 1000px;
+        transform: translateX(-50%);
+        border-radius: 1000px;
+    }
 </style>
